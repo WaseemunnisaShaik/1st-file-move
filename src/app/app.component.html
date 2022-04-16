@@ -1,0 +1,8 @@
+<h2>ONE WAY DATA BINDING</h2>
+<div>{{title}}</div>
+<div>Age:{{age}}</div>
+<h2>TWO WAY DATA BINDING</h2>
+<label>NAME:</label>
+<input type="text"[(ngModel)]="name"(keyup)="getvalue()"/> <br>
+<label>Age:</label>
+<input type="text"[(ngModel)]="pageno"(keyup)="passvalue()"/>
